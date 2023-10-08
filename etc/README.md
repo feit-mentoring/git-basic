@@ -31,6 +31,12 @@ This quick tutorial will introduce the basic of Git and how we use it together w
 ```bash
 ssh -T git@github.com
 ```
+## Setting your git config
+```bash
+#Run:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 ## Cloning a repository
 1. In your WSL terminal, run:
@@ -60,7 +66,7 @@ Trunk-based development maintain a main trunk and all features are merged to the
 git branch
 ```
 
-## Pushing a commit
+## Commiting a change and pushing commits
 1. In your WSL terminal, run:
 ```bash
 git clone git@github.com:feit-mentoring/git-basic.git
